@@ -1,0 +1,27 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env PORT=3003 node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Allabergenov Salamat",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cross-env": "^5.2.0",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "mongoose": "^5.4.19"
+    },
+    "devDependencies": {
+        "eslint": "^5.15.3",
+        "eslint-plugin-node": "^8.0.1",
+        "nodemon": "^1.18.10"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    }
+}
